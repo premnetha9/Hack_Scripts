@@ -20,8 +20,8 @@ $ chisel --help
   Version: X.Y.Z
   
   Commands:
-  1.server - runs chisel in server mode
-  1.client - runs chisel in client mode
+  - server - runs chisel in server mode.
+  - client - runs chisel in client mode.
     
   Read more:
   https://github.com/jpillora/chisel
