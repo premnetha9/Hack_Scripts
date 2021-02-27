@@ -12,7 +12,7 @@ Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single 
 
 See the latest release or download and install it now with curl https://i.jpillora.com/chisel! | bash
 
-## Usage
+### Usage
 
 $ chisel --help
   Usage: chisel [command] [--help]
