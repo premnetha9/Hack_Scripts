@@ -37,7 +37,7 @@ https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/
 Windows privilege escalation, To achive this check for **Privilages Information** by 
 `whoami /priv'  
 
-###PRIVILEGES INFORMATION
+### PRIVILEGES INFORMATION
 
 | Privilege Name             |   Description                            |   State     |  
 |----------------------------|------------------------------------------|-------------|  
