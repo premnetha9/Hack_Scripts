@@ -46,7 +46,7 @@ PRIVILEGES INFORMATION
 |SeIncreaseQuotaPrivilege     | Adjust memory quotas for a process       | Disabled   |
 |SeAuditPrivilege             | Generate security audits                 | Disabled   |
 |SeChangeNotifyPrivilege      | Bypass traverse checking                 | Enabled    |
-|**SeImpersonatePrivilege     |   Impersonate a client after authentication| Enabled**|  
+|SeImpersonatePrivilege     |   Impersonate a client after authentication| Enabled|  
 |SeCreateGlobalPrivilege      | Create global objects                    | Enabled    |
 |SeIncreaseWorkingSetPrivilege| Increase a process working set           | Disabled   | 
   
