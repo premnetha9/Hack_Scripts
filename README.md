@@ -58,4 +58,5 @@ Windows privilege escalation, To achive this check for **Privilages Information*
 
 We can Loing to the windows machine, verify's the host/username present in the windows machine.
 
-### Command: `python3 /usr/share/doc/python3-impacket/examples/psexec.py <host name>/<user>:<password>@10.10.208.42 cmd.exe`
+### Command: 
+`python3 /usr/share/doc/python3-impacket/examples/psexec.py <host name>/<user>:<password>@10.10.208.42 cmd.exe`
