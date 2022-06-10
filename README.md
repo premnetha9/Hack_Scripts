@@ -208,10 +208,10 @@ Tplmap supports over 15 template engines, unsandboxed template engines and gener
 Burp Suite Plugin
 -----------------
 
-[10]: http://blog.portswigger.net/2015/08/server-side-template-injection.html
-[3]: https://github.com/epinna/tplmap/issues/9
-[4]: http://disse.cting.org/2016/08/02/2016-08-02-sandbox-break-out-nunjucks-template-engine
-[1]: https://artsploit.blogspot.co.uk/2016/08/pprce2.html
-[11]: http://jinja.pocoo.org/
-[12]: http://flask.pocoo.org/
-[2]: https://opsecx.com/index.php/2016/07/03/server-side-template-injection-in-tornado/
+http://blog.portswigger.net/2015/08/server-side-template-injection.html
+https://github.com/epinna/tplmap/issues/9
+http://disse.cting.org/2016/08/02/2016-08-02-sandbox-break-out-nunjucks-template-engine
+https://artsploit.blogspot.co.uk/2016/08/pprce2.html
+http://jinja.pocoo.org/
+http://flask.pocoo.org/
+https://opsecx.com/index.php/2016/07/03/server-side-template-injection-in-tornado/
